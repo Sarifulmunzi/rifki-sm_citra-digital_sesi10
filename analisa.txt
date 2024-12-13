@@ -1,0 +1,19 @@
+Konsep Deteksi Tepi:
+Roberts: Menggunakan kernel 2x2, lebih cepat tetapi kurang tahan terhadap noise.
+Sobel: Menggunakan kernel 3x3, lebih kompleks, lebih akurat, dan lebih tahan terhadap noise.
+
+Ukuran Kernel:
+Roberts: Kernel 2x2, menghasilkan tepi tajam.
+Sobel: Kernel 3x3, memberikan hasil yang lebih halus dan lebih stabil.
+
+Output:
+Roberts: Tepi lebih tajam tetapi lebih sensitif terhadap noise.
+Sobel: Tepi lebih halus dan kontinu, lebih stabil.
+
+Visualisasi:
+Roberts: Menampilkan hanya hasil akhir deteksi tepi.
+Sobel: Menampilkan gradient X, gradient Y, dan magnitude gradient untuk analisis lebih detail.
+
+Kecepatan dan Kompleksitas:
+Roberts: Lebih cepat dan sederhana.
+Sobel: Lebih lambat karena kernel lebih besar, tetapi lebih akurat.
